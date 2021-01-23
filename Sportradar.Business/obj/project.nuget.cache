@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "ev/cEJAvAmXDceDEvfZigOx3rE5vrbdf0qkwpDiq2Dju4m6PGFZXkLzs5mxVZGUVWHEPWjEmTtSHX9u7XoEAXQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\skeu\\Source\\Repos\\skeu01\\sportradar\\Sportradar.Business\\Sportradar.Business.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\skeu\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
