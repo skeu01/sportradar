@@ -9,4 +9,7 @@ Projects:
 - Sportradar.DataLayer (db logic)
 - Sportradar.Tests (unit testing)
 
+Notes:
+- DB In Memory
+
 To run, just download, recompile Solution and run Tests.
