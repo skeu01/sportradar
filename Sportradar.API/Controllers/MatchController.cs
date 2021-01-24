@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Sportradar.Business;
-using Sportradar.DataAccess.Models;
+using Sportradar.DataLayer.Models;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 
@@ -18,27 +18,27 @@ namespace Sportradar.API.Controllers
         }
 
         [HttpGet]
-        public List<MatchEntity> GetOrderedScore()
+        public async Task<List<MatchEntity>> GetOrderedScore()
         {
-            return matchService.GetOrderedScore();
+            return await matchService.GetOrderedScore();
         }
 
         [HttpPost]
-        public bool StartMatch(MatchEntity match)
+        public async Task<bool> StartMatch(MatchEntity match)
         {
-            return matchService.StartMatch(match);
+            return await matchService.StartMatch(match);
         }
 
         [HttpPut]
-        public bool UpdateMatch(MatchEntity match)
+        public async Task<bool> UpdateMatch(MatchEntity match)
         {
-            return matchService.UpdateMatch(match);
+            return await matchService.UpdateMatch(match);
         }
 
         [HttpPost]
-        public bool EndMatch(MatchEntity match)
+        public async Task<bool> EndMatch(MatchEntity match)
         {
-            return matchService.EndMatch(match);
+            return await matchService.EndMatch(match);
         }        
     }
 }

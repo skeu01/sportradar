@@ -1,0 +1,8 @@
+C:\Users\skeu\source\repos\skeu01\sportradar\Sportradar.DataLayer\bin\Debug\netcoreapp3.1\Sportradar.DataLayer.deps.json
+C:\Users\skeu\source\repos\skeu01\sportradar\Sportradar.DataLayer\bin\Debug\netcoreapp3.1\Sportradar.DataLayer.dll
+C:\Users\skeu\source\repos\skeu01\sportradar\Sportradar.DataLayer\bin\Debug\netcoreapp3.1\Sportradar.DataLayer.pdb
+C:\Users\skeu\source\repos\skeu01\sportradar\Sportradar.DataLayer\obj\Debug\netcoreapp3.1\Sportradar.DataLayer.AssemblyInfoInputs.cache
+C:\Users\skeu\source\repos\skeu01\sportradar\Sportradar.DataLayer\obj\Debug\netcoreapp3.1\Sportradar.DataLayer.AssemblyInfo.cs
+C:\Users\skeu\source\repos\skeu01\sportradar\Sportradar.DataLayer\obj\Debug\netcoreapp3.1\Sportradar.DataLayer.csproj.CoreCompileInputs.cache
+C:\Users\skeu\source\repos\skeu01\sportradar\Sportradar.DataLayer\obj\Debug\netcoreapp3.1\Sportradar.DataLayer.dll
+C:\Users\skeu\source\repos\skeu01\sportradar\Sportradar.DataLayer\obj\Debug\netcoreapp3.1\Sportradar.DataLayer.pdb

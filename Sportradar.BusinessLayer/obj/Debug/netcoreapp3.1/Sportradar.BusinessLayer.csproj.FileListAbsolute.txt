@@ -1,0 +1,12 @@
+C:\Users\skeu\source\repos\skeu01\sportradar\Sportradar.BusinessLayer\bin\Debug\netcoreapp3.1\Sportradar.BusinessLayer.deps.json
+C:\Users\skeu\source\repos\skeu01\sportradar\Sportradar.BusinessLayer\bin\Debug\netcoreapp3.1\Sportradar.BusinessLayer.dll
+C:\Users\skeu\source\repos\skeu01\sportradar\Sportradar.BusinessLayer\bin\Debug\netcoreapp3.1\Sportradar.BusinessLayer.pdb
+C:\Users\skeu\source\repos\skeu01\sportradar\Sportradar.BusinessLayer\bin\Debug\netcoreapp3.1\Sportradar.DataLayer.dll
+C:\Users\skeu\source\repos\skeu01\sportradar\Sportradar.BusinessLayer\bin\Debug\netcoreapp3.1\Sportradar.DataLayer.pdb
+C:\Users\skeu\source\repos\skeu01\sportradar\Sportradar.BusinessLayer\obj\Debug\netcoreapp3.1\Sportradar.BusinessLayer.csprojAssemblyReference.cache
+C:\Users\skeu\source\repos\skeu01\sportradar\Sportradar.BusinessLayer\obj\Debug\netcoreapp3.1\Sportradar.BusinessLayer.AssemblyInfoInputs.cache
+C:\Users\skeu\source\repos\skeu01\sportradar\Sportradar.BusinessLayer\obj\Debug\netcoreapp3.1\Sportradar.BusinessLayer.AssemblyInfo.cs
+C:\Users\skeu\source\repos\skeu01\sportradar\Sportradar.BusinessLayer\obj\Debug\netcoreapp3.1\Sportradar.BusinessLayer.csproj.CoreCompileInputs.cache
+C:\Users\skeu\source\repos\skeu01\sportradar\Sportradar.BusinessLayer\obj\Debug\netcoreapp3.1\Sportradar.BusinessLayer.csproj.CopyComplete
+C:\Users\skeu\source\repos\skeu01\sportradar\Sportradar.BusinessLayer\obj\Debug\netcoreapp3.1\Sportradar.BusinessLayer.dll
+C:\Users\skeu\source\repos\skeu01\sportradar\Sportradar.BusinessLayer\obj\Debug\netcoreapp3.1\Sportradar.BusinessLayer.pdb

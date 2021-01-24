@@ -5,8 +5,12 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Sportradar.Business\Sportradar.Business.csproj" />
-    <ProjectReference Include="..\Sportradar.DataAccess\Sportradar.DataAccess.csproj" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.InMemory" Version="5.0.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Sportradar.BusinessLayer\Sportradar.BusinessLayer.csproj" />
+    <ProjectReference Include="..\Sportradar.DataLayer\Sportradar.DataLayer.csproj" />
   </ItemGroup>
 
 
