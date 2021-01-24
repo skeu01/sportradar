@@ -1,10 +1,9 @@
 # sportradar
-
-* Technologies and libraries:
-- .NET Core 3.1
+Technologies and libraries:
+- NET Core 3.1
 - MsTest
 
-* Projects:
+Projects:
 - Sportradar.API (not used, just an example)
 - Sportradar.BusinessLayer (business logic)
 - Sportradar.DataLayer (db logic)
