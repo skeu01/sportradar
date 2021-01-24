@@ -10,15 +10,15 @@ namespace Sportradar.API.Controllers
     [Route("[controller]")]
     public class MatchController : ControllerBase
     {
-        public readonly MatchService matchService;
+        public readonly IMatchService matchService;
 
-        public MatchController(MatchService matchService)
+        public MatchController(IMatchService matchService)
         {
             this.matchService = matchService;
         }
 
         [HttpGet]
-        public List<MatchEntity> GetOrderScore(List<MatchEntity> matches)
+        public List<MatchEntity> GetOrderScore()
         {
             return matchService.GetOrderScore();
         }

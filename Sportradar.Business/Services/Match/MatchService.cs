@@ -10,9 +10,9 @@ namespace Sportradar.Business
 
     public class MatchService : IMatchService
     {
-        private readonly MatchRepository matchRepository;
+        private readonly IMatchRepository matchRepository;
 
-        public MatchService(MatchRepository matchRepository) { this.matchRepository = matchRepository; }
+        public MatchService(IMatchRepository matchRepository) { this.matchRepository = matchRepository; }
 
         public bool StartMatch(MatchEntity match)
         {
@@ -26,7 +26,7 @@ namespace Sportradar.Business
             if (match.TeamHomeScore != 0 || match.TeamAwayScore != 0) return false;
 
             //Check repeated team
-            if (matches.Any(x => x.TeamHomeName.Contains(match.TeamHomeName) || x.TeamHomeName.Contains(match.TeamAwayName)
+            if (matches != null && matches.Any(x => x.TeamHomeName.Contains(match.TeamHomeName) || x.TeamHomeName.Contains(match.TeamAwayName)
                                 || x.TeamAwayName.Contains(match.TeamHomeName) || x.TeamAwayName.Contains(match.TeamAwayName)))
                 return false;
 
@@ -46,18 +46,10 @@ namespace Sportradar.Business
             //Check if any score is negative
             if (match.TeamHomeScore < 0 || match.TeamAwayScore < 0) return false;
 
-            //Check repeated team
-            if (matches.Any(x => x.TeamHomeName.Contains(match.TeamHomeName) || x.TeamHomeName.Contains(match.TeamAwayName)
-                                || x.TeamAwayName.Contains(match.TeamHomeName) || x.TeamAwayName.Contains(match.TeamAwayName)))
-                return false;
-
             //check that record exists with same teams in same order
-            MatchEntity entity = matches.Where(x => x.TeamHomeName == match.TeamHomeName && x.TeamAwayName == x.TeamAwayName).FirstOrDefault();
+            MatchEntity entity = matches.Where(x => x.TeamHomeName == match.TeamHomeName && x.TeamAwayName == match.TeamAwayName).FirstOrDefault();
 
             if (entity == null) return false;
-
-
-
 
             return true;
         }

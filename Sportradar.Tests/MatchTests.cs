@@ -1,24 +1,21 @@
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using Sportradar.Business;
 using Sportradar.DataAccess.Models;
+using Sportradar.DataAccess.Repositories;
 using System.Collections.Generic;
-using System.Threading.Tasks;
 
 namespace Sportradar.Tests
 {
     [TestClass]
     public class MatchTests
     {
-        private readonly IMatchService matchService;
+        private IMatchRepository _matchRepository = new MatchRepository();
 
-        public MatchTests(IMatchService matchService)
-        {
-            this.matchService = matchService;
-        }
 
         [TestMethod]
-        public void Test_New_Match()
+        public void Test_Start_Match()
         {
+            var matchService = new MatchService(_matchRepository);
             //Entity can not be null
             Assert.IsFalse(matchService.StartMatch(new MatchEntity()));
 
@@ -26,19 +23,21 @@ namespace Sportradar.Tests
             Assert.IsFalse(matchService.StartMatch(new MatchEntity { TeamHomeName = "Uruguay", TeamHomeScore = 1, TeamAwayName = "Italy", TeamAwayScore = 0 }));
             Assert.IsFalse(matchService.StartMatch(new MatchEntity { TeamHomeName = "Uruguay", TeamHomeScore = 0, TeamAwayName = "Italy", TeamAwayScore = 1 }));
 
-            //both teams must be at the same order with same teams
+            ////both teams must not exist
             Assert.IsFalse(matchService.StartMatch(new MatchEntity { TeamHomeName = "Argentina", TeamHomeScore = 0, TeamAwayName = "Italy", TeamAwayScore = 0 }));
             Assert.IsFalse(matchService.StartMatch(new MatchEntity { TeamHomeName = "Argentina", TeamHomeScore = 0, TeamAwayName = "Uruguay", TeamAwayScore = 0 }));
             Assert.IsFalse(matchService.StartMatch(new MatchEntity { TeamHomeName = "Uruguay", TeamHomeScore = 0, TeamAwayName = "Argentina", TeamAwayScore = 0 }));
             Assert.IsFalse(matchService.StartMatch(new MatchEntity { TeamHomeName = "Australia", TeamHomeScore = 0, TeamAwayName = "Argentina", TeamAwayScore = 0 }));
 
-
+            //insert new entity with no errors
             Assert.IsTrue(matchService.StartMatch(new MatchEntity { TeamHomeName = "Uruguay", TeamHomeScore = 0, TeamAwayName = "Italy", TeamAwayScore = 0 }));
         }
 
         [TestMethod]
         public void Test_Update_Match()
         {
+            var matchService = new MatchService(_matchRepository);
+
             //Entity can not be null
             Assert.IsFalse(matchService.UpdateMatch(new MatchEntity()));
 
@@ -54,12 +53,14 @@ namespace Sportradar.Tests
             Assert.IsFalse(matchService.UpdateMatch(new MatchEntity { TeamHomeName = "Australia", TeamHomeScore = 0, TeamAwayName = "Argentina", TeamAwayScore = 0 }));
 
 
-            Assert.IsTrue(matchService.UpdateMatch(new MatchEntity { TeamHomeName = "Uruguay", TeamHomeScore = 0, TeamAwayName = "Italy", TeamAwayScore = 0 }));
+            Assert.IsTrue(matchService.UpdateMatch(new MatchEntity { TeamHomeName = "Uruguay", TeamHomeScore = 3, TeamAwayName = "Italy", TeamAwayScore = 0 }));
         }
 
         [TestMethod]
         public void Test_Delete_Match()
         {
+            var matchService = new MatchService(_matchRepository);
+
             //Entity can not be null
             Assert.IsFalse(matchService.EndMatch(new MatchEntity()));
 
@@ -81,6 +82,8 @@ namespace Sportradar.Tests
         [TestMethod]
         public void Test_Get_Match()
         {
+            var matchService = new MatchService(_matchRepository);
+
             //Can not be null
             Assert.IsNotNull(matchService.GetOrderScore());
 
