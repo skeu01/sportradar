@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\skeu\\Source\\Repos\\skeu01\\sportradar\\Sportradar.DataAccess\\Sportradar.DataAccess.csproj": {}
+    "C:\\Users\\skeu\\source\\repos\\skeu01\\sportradar\\Sportradar.DataAccess\\Sportradar.DataAccess.csproj": {}
   },
   "projects": {
-    "C:\\Users\\skeu\\Source\\Repos\\skeu01\\sportradar\\Sportradar.DataAccess\\Sportradar.DataAccess.csproj": {
+    "C:\\Users\\skeu\\source\\repos\\skeu01\\sportradar\\Sportradar.DataAccess\\Sportradar.DataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\skeu\\Source\\Repos\\skeu01\\sportradar\\Sportradar.DataAccess\\Sportradar.DataAccess.csproj",
+        "projectUniqueName": "C:\\Users\\skeu\\source\\repos\\skeu01\\sportradar\\Sportradar.DataAccess\\Sportradar.DataAccess.csproj",
         "projectName": "Sportradar.DataAccess",
-        "projectPath": "C:\\Users\\skeu\\Source\\Repos\\skeu01\\sportradar\\Sportradar.DataAccess\\Sportradar.DataAccess.csproj",
+        "projectPath": "C:\\Users\\skeu\\source\\repos\\skeu01\\sportradar\\Sportradar.DataAccess\\Sportradar.DataAccess.csproj",
         "packagesPath": "C:\\Users\\skeu\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\skeu\\Source\\Repos\\skeu01\\sportradar\\Sportradar.DataAccess\\obj\\",
+        "outputPath": "C:\\Users\\skeu\\source\\repos\\skeu01\\sportradar\\Sportradar.DataAccess\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "luAY7TJXkpkFb8jcGkdndlnrZUpYX1mys7rnZ7MI5QZipvpLaw70ffiE0xlVxVmQ3FjN3hWMbadgwYdMORNieg==",
+  "dgSpecHash": "5h+3OC/uZMaelUDZZXq2iF6ldIBanDhhU1DfsKK4d5rW9lM3UaXsm+syRgY69Mgh+DFMl723peXv4b98DdCVJA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\skeu\\Source\\Repos\\skeu01\\sportradar\\Sportradar.Tests\\Sportradar.Tests.csproj",
+  "projectFilePath": "C:\\Users\\skeu\\source\\repos\\skeu01\\sportradar\\Sportradar.Tests\\Sportradar.Tests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\skeu\\.nuget\\packages\\coverlet.collector\\1.3.0\\coverlet.collector.1.3.0.nupkg.sha512",
     "C:\\Users\\skeu\\.nuget\\packages\\microsoft.codecoverage\\16.7.1\\microsoft.codecoverage.16.7.1.nupkg.sha512",

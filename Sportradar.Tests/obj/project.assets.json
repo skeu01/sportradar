@@ -3409,11 +3409,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\skeu\\Source\\Repos\\skeu01\\sportradar\\Sportradar.Tests\\Sportradar.Tests.csproj",
+      "projectUniqueName": "C:\\Users\\skeu\\source\\repos\\skeu01\\sportradar\\Sportradar.Tests\\Sportradar.Tests.csproj",
       "projectName": "Sportradar.Tests",
-      "projectPath": "C:\\Users\\skeu\\Source\\Repos\\skeu01\\sportradar\\Sportradar.Tests\\Sportradar.Tests.csproj",
+      "projectPath": "C:\\Users\\skeu\\source\\repos\\skeu01\\sportradar\\Sportradar.Tests\\Sportradar.Tests.csproj",
       "packagesPath": "C:\\Users\\skeu\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\skeu\\Source\\Repos\\skeu01\\sportradar\\Sportradar.Tests\\obj\\",
+      "outputPath": "C:\\Users\\skeu\\source\\repos\\skeu01\\sportradar\\Sportradar.Tests\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -3435,11 +3435,11 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\Users\\skeu\\Source\\Repos\\skeu01\\sportradar\\Sportradar.Business\\Sportradar.Business.csproj": {
-              "projectPath": "C:\\Users\\skeu\\Source\\Repos\\skeu01\\sportradar\\Sportradar.Business\\Sportradar.Business.csproj"
+            "C:\\Users\\skeu\\source\\repos\\skeu01\\sportradar\\Sportradar.Business\\Sportradar.Business.csproj": {
+              "projectPath": "C:\\Users\\skeu\\source\\repos\\skeu01\\sportradar\\Sportradar.Business\\Sportradar.Business.csproj"
             },
-            "C:\\Users\\skeu\\Source\\Repos\\skeu01\\sportradar\\Sportradar.DataAccess\\Sportradar.DataAccess.csproj": {
-              "projectPath": "C:\\Users\\skeu\\Source\\Repos\\skeu01\\sportradar\\Sportradar.DataAccess\\Sportradar.DataAccess.csproj"
+            "C:\\Users\\skeu\\source\\repos\\skeu01\\sportradar\\Sportradar.DataAccess\\Sportradar.DataAccess.csproj": {
+              "projectPath": "C:\\Users\\skeu\\source\\repos\\skeu01\\sportradar\\Sportradar.DataAccess\\Sportradar.DataAccess.csproj"
             }
           }
         }

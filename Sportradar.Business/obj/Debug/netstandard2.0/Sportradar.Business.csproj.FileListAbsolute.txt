@@ -10,3 +10,15 @@ C:\Users\skeu\source\repos\Sportradar.API\Sportradar.Business\obj\Debug\netstand
 C:\Users\skeu\source\repos\Sportradar.API\Sportradar.Business\obj\Debug\netstandard2.0\Sportradar.Business.csproj.CopyComplete
 C:\Users\skeu\source\repos\Sportradar.API\Sportradar.Business\obj\Debug\netstandard2.0\Sportradar.Business.dll
 C:\Users\skeu\source\repos\Sportradar.API\Sportradar.Business\obj\Debug\netstandard2.0\Sportradar.Business.pdb
+C:\Users\skeu\Source\Repos\skeu01\sportradar\Sportradar.Business\obj\Debug\netstandard2.0\Sportradar.Business.csprojAssemblyReference.cache
+C:\Users\skeu\Source\Repos\skeu01\sportradar\Sportradar.Business\obj\Debug\netstandard2.0\Sportradar.Business.AssemblyInfoInputs.cache
+C:\Users\skeu\Source\Repos\skeu01\sportradar\Sportradar.Business\obj\Debug\netstandard2.0\Sportradar.Business.AssemblyInfo.cs
+C:\Users\skeu\Source\Repos\skeu01\sportradar\Sportradar.Business\obj\Debug\netstandard2.0\Sportradar.Business.csproj.CoreCompileInputs.cache
+C:\Users\skeu\Source\Repos\skeu01\sportradar\Sportradar.Business\obj\Debug\netstandard2.0\Sportradar.Business.dll
+C:\Users\skeu\Source\Repos\skeu01\sportradar\Sportradar.Business\obj\Debug\netstandard2.0\Sportradar.Business.pdb
+C:\Users\skeu\source\repos\skeu01\sportradar\Sportradar.Business\bin\Debug\netstandard2.0\Sportradar.Business.deps.json
+C:\Users\skeu\source\repos\skeu01\sportradar\Sportradar.Business\bin\Debug\netstandard2.0\Sportradar.Business.dll
+C:\Users\skeu\source\repos\skeu01\sportradar\Sportradar.Business\bin\Debug\netstandard2.0\Sportradar.Business.pdb
+C:\Users\skeu\source\repos\skeu01\sportradar\Sportradar.Business\bin\Debug\netstandard2.0\Sportradar.DataAccess.dll
+C:\Users\skeu\source\repos\skeu01\sportradar\Sportradar.Business\bin\Debug\netstandard2.0\Sportradar.DataAccess.pdb
+C:\Users\skeu\source\repos\skeu01\sportradar\Sportradar.Business\obj\Debug\netstandard2.0\Sportradar.Business.csproj.CopyComplete

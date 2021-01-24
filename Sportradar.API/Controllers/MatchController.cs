@@ -18,27 +18,27 @@ namespace Sportradar.API.Controllers
         }
 
         [HttpGet]
-        public async Task<List<MatchEntity>> GetOrderScore(List<MatchEntity> matches)
+        public List<MatchEntity> GetOrderScore(List<MatchEntity> matches)
         {
-            return await matchService.GetOrderScore(matches);
+            return matchService.GetOrderScore();
         }
 
         [HttpPost]
-        public async Task<bool> StartMatch(List<MatchEntity> matches)
+        public bool StartMatch(MatchEntity match)
         {
-            return await matchService.StartMatch(matches);
+            return matchService.StartMatch(match);
         }
 
         [HttpPut]
-        public async Task<bool> UpdateMatch(MatchEntity match)
+        public bool UpdateMatch(MatchEntity match)
         {
-            return await matchService.UpdateMatch(match);
+            return matchService.UpdateMatch(match);
         }
 
         [HttpPost]
-        public async Task<bool> EndMatch(MatchEntity match)
+        public bool EndMatch(MatchEntity match)
         {
-            return await matchService.EndMatch(match);
+            return matchService.EndMatch(match);
         }        
     }
 }

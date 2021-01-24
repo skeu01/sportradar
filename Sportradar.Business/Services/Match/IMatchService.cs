@@ -12,27 +12,27 @@ namespace Sportradar.Business
         /// </summary>
         /// <param name="matches">List of matches</param>
         /// <returns></returns>
-        Task<bool> StartMatch(List<MatchEntity> matches);
+        bool StartMatch(MatchEntity match);
 
         /// <summary>
         ///  Update match
         /// </summary>
         /// <param name="match">Match</param>
         /// <returns></returns>
-        Task<bool> UpdateMatch(MatchEntity match);
+        bool UpdateMatch(MatchEntity match);
 
         /// <summary>
         /// Remove match from list
         /// </summary>
         /// <param name="match">match</param>
         /// <returns>list of matches without the removed</returns>
-        Task<bool> EndMatch(MatchEntity match);
+        bool EndMatch(MatchEntity match);
 
         /// <summary>
         /// Set order of matches depending of the scores
         /// </summary>
         /// <param name="matches">list of maches</param>
         /// <returns>ordered list of matches</returns>
-        Task<List<MatchEntity>> GetOrderScore(List<MatchEntity> matches);
+        List<MatchEntity> GetOrderScore();
     }
 }

@@ -6,3 +6,11 @@ C:\Users\skeu\source\repos\Sportradar.API\Sportradar.DataAccess\obj\Debug\netsta
 C:\Users\skeu\source\repos\Sportradar.API\Sportradar.DataAccess\obj\Debug\netstandard2.0\Sportradar.DataAccess.csproj.CoreCompileInputs.cache
 C:\Users\skeu\source\repos\Sportradar.API\Sportradar.DataAccess\obj\Debug\netstandard2.0\Sportradar.DataAccess.dll
 C:\Users\skeu\source\repos\Sportradar.API\Sportradar.DataAccess\obj\Debug\netstandard2.0\Sportradar.DataAccess.pdb
+C:\Users\skeu\Source\Repos\skeu01\sportradar\Sportradar.DataAccess\bin\Debug\netstandard2.0\Sportradar.DataAccess.deps.json
+C:\Users\skeu\Source\Repos\skeu01\sportradar\Sportradar.DataAccess\bin\Debug\netstandard2.0\Sportradar.DataAccess.dll
+C:\Users\skeu\Source\Repos\skeu01\sportradar\Sportradar.DataAccess\bin\Debug\netstandard2.0\Sportradar.DataAccess.pdb
+C:\Users\skeu\Source\Repos\skeu01\sportradar\Sportradar.DataAccess\obj\Debug\netstandard2.0\Sportradar.DataAccess.AssemblyInfoInputs.cache
+C:\Users\skeu\Source\Repos\skeu01\sportradar\Sportradar.DataAccess\obj\Debug\netstandard2.0\Sportradar.DataAccess.AssemblyInfo.cs
+C:\Users\skeu\Source\Repos\skeu01\sportradar\Sportradar.DataAccess\obj\Debug\netstandard2.0\Sportradar.DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\skeu\Source\Repos\skeu01\sportradar\Sportradar.DataAccess\obj\Debug\netstandard2.0\Sportradar.DataAccess.dll
+C:\Users\skeu\Source\Repos\skeu01\sportradar\Sportradar.DataAccess\obj\Debug\netstandard2.0\Sportradar.DataAccess.pdb
