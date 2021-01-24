@@ -33,6 +33,6 @@ namespace Sportradar.Business
         /// </summary>
         /// <param name="matches">list of maches</param>
         /// <returns>ordered list of matches</returns>
-        List<MatchEntity> GetOrderScore();
+        List<MatchEntity> GetOrderedScore();
     }
 }

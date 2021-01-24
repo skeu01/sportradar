@@ -1,4 +1,6 @@
-﻿namespace Sportradar.DataAccess.Models
+﻿using System;
+
+namespace Sportradar.DataAccess.Models
 {
     public class MatchEntity
     {
@@ -6,5 +8,6 @@
         public int TeamHomeScore { get; set; }
         public string TeamAwayName { get; set; }
         public int TeamAwayScore { get; set; }
+        public DateTime Created { get; set; }
     }
 }

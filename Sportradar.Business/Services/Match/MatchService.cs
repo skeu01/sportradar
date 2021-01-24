@@ -19,8 +19,8 @@ namespace Sportradar.Business
             //get data
             List<MatchEntity> matches = matchRepository.GetStartedMatchesEntities();
 
-            //check null match value or empty team name
-            if (match == null || (match != null && string.IsNullOrEmpty(match.TeamHomeName) || string.IsNullOrEmpty(match.TeamAwayName))) return false;
+            //validate match data
+            if (!ValidateMatchValues(match)) return false;
 
             //Check if any score 
             if (match.TeamHomeScore != 0 || match.TeamAwayScore != 0) return false;
@@ -40,8 +40,8 @@ namespace Sportradar.Business
             //get data
             List<MatchEntity> matches = matchRepository.GetMatchesEntities();
 
-            //check null match value or empty team name
-            if (match == null || (match != null && string.IsNullOrEmpty(match.TeamHomeName) || string.IsNullOrEmpty(match.TeamAwayName))) return false;
+            //validate match data
+            if (!ValidateMatchValues(match)) return false;
 
             //Check if any score is negative
             if (match.TeamHomeScore < 0 || match.TeamAwayScore < 0) return false;
@@ -51,17 +51,49 @@ namespace Sportradar.Business
 
             if (entity == null) return false;
 
+            entity.TeamHomeScore = match.TeamHomeScore;
+            entity.TeamAwayScore = match.TeamAwayScore;
+
             return true;
         }
 
         public bool EndMatch(MatchEntity match)
         {
-            throw new NotImplementedException();
+            //get data
+            List<MatchEntity> matches = matchRepository.GetMatchesEntities();
+
+            //validate match data
+            if (!ValidateMatchValues(match)) return false;
+
+            //check that record exists with same teams in same order
+            MatchEntity entity = matches.Where(x => x.TeamHomeName == match.TeamHomeName && x.TeamAwayName == match.TeamAwayName).FirstOrDefault();
+
+            if (entity == null) return false;
+
+            matches.Remove(entity);
+
+            return true;
         }
 
-        public List<MatchEntity> GetOrderScore()
+        public List<MatchEntity> GetOrderedScore()
         {
-            throw new NotImplementedException();
+            //get data
+            List<MatchEntity> matches = matchRepository.GetMatchesEntities();
+
+            return matches.OrderByDescending(x => x.Created).ToList();
+        }
+
+        /// <summary>
+        /// check input match values
+        /// </summary>
+        /// <param name="match">match entity</param>
+        /// <returns>validation</returns>
+        private bool ValidateMatchValues(MatchEntity match) 
+        {
+            //check null match value or empty team name
+            if (match == null || (match != null && string.IsNullOrEmpty(match.TeamHomeName) || string.IsNullOrEmpty(match.TeamAwayName))) return false;
+
+            return true;
         }
     }
 }

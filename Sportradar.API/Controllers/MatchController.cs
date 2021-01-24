@@ -18,9 +18,9 @@ namespace Sportradar.API.Controllers
         }
 
         [HttpGet]
-        public List<MatchEntity> GetOrderScore()
+        public List<MatchEntity> GetOrderedScore()
         {
-            return matchService.GetOrderScore();
+            return matchService.GetOrderedScore();
         }
 
         [HttpPost]
